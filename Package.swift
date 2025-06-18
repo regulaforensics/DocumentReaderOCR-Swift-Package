@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "OCR",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "OCR",
             targets: ["OCR"]),
     ],
     targets: [
-        .binaryTarget(name: "OCR", url: "https://pods.regulaforensics.com/OCR/7.7.12009/DocumentReaderCore_ocrandmrz_7.7.12009.zip", checksum: "f19765e4d8c4da609f3ea33832a5b1328d529f39dcace72d9dbf40377c3f9220"),
+        .binaryTarget(name: "OCR", url: "https://pods.regulaforensics.com/OCR/8.1.12886/DocumentReaderCore_ocrandmrz_8.1.12886.zip", checksum: "ae5a918ee9c26c3253480d4f0f30bdc49bfbb6aba2bb097f8e60d928dd20e355"),
     ]
 )
