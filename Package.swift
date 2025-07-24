@@ -10,6 +10,6 @@ let package = Package(
             targets: ["OCR"]),
     ],
     targets: [
-        .binaryTarget(name: "OCR", url: "https://pods.regulaforensics.com/OCR/8.1.12886/DocumentReaderCore_ocrandmrz_8.1.12886.zip", checksum: "ae5a918ee9c26c3253480d4f0f30bdc49bfbb6aba2bb097f8e60d928dd20e355"),
+        .binaryTarget(name: "OCR", url: "https://pods.regulaforensics.com/OCR/8.2.13460/DocumentReaderCore_ocrandmrz_8.2.13460.zip", checksum: "663149c743b3438b89c4c05db14ac6badce2c725c45a3c00b14ad7c32467c85f"),
     ]
 )
