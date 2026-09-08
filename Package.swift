@@ -7,9 +7,9 @@ let package = Package(
     products: [
         .library(
             name: "OCR",
-            targets: ["OCR"]),
+            targets: ["OCRStage"]),
     ],
     targets: [
-        .binaryTarget(name: "OCR", url: "https://pods.regulaforensics.com/OCR/9.8.20494/DocumentReaderCore_ocrandmrz_9.8.20494.zip", checksum: "8f22b72b26384ce2fa280cd3722f333a376c2c0dc534316634727f4889534dcc"),
+        .binaryTarget(name: "OCRStage", url: "https://pods.regulaforensics.com/Stage/OCRStage/9.8.20512/DocumentReaderCoreStage_ocrandmrz_9.8.20512.zip", checksum: "adfc1aa986144eb739bded4562664142b9c38156131b1846b1c1d6d4d9357b4c"),
     ]
 )
