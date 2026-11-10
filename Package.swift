@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OCRStage",
-            url: "https://pods.regulaforensics.com/Stage/OCRStage/9.10.21531/DocumentReaderCoreStage_ocrandmrz_9.10.21531.zip",
-            checksum: "05a919da9ba7df70f3167aa8e67d5d31fd2e6197c9b156b34005ea0395bcaacd"),
+            url: "https://pods.regulaforensics.com/Stage/OCRStage/9.10.21550/DocumentReaderCoreStage_ocrandmrz_9.10.21550.zip",
+            checksum: "d813b28f35808a802e7bccd1044fe59dd90153a4c952b7e7d9170d5f598bef8a"),
     ]
 )
